@@ -20,7 +20,8 @@ public class ArrayOperations {
         for (int num : arr) {
             System.out.print(num + " ");
         }
-
+        
+        // Logic to find second lowest and second highest numbers
         int secondLowest = arr[1];
         int secondHighest = arr[arr.length - 2];
 
